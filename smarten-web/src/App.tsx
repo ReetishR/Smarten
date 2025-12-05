@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-slate-200 selection:bg-uv-blue/70 selection:text-black overflow-x-hidden">
       <Navbar />
-      <main className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
+      <main className="w-full">
         <Hero />
         <MarketOverview />
         <Technology />
